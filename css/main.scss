@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// Header
+
+header {
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+.container {
+  width: 1300px;
+  background: #304E58 !important;
+  height: 95px !important;
+}
+.navbar-nav {
+  gap: 20px;
+}
+.nav-link {
+  color: #FFFFFF !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.navbar {
+  --bs-navbar-padding-y: 0 !important;
+}
+.logo {
+  margin-left: -18px;
+}
+
+.logo_text1 {
+  width: 70px;
+  height: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.logo_text2 {
+  width: 76px;
+  height: 9px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 9px;
+  line-height: 11px;
+}
+.telefon {
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+}
+
