@@ -16,14 +16,14 @@ header {
   color: #FFFFFF;
 }
 
-.container {
+.hedear__block {
   width: 1300px;
   background: #304E58 !important;
   height: 95px !important;
 }
 
 .navbar-nav {
-  gap: 20px;
+  gap: 22px;
 }
 
 .nav-link {
@@ -39,7 +39,7 @@ header {
 }
 
 .logo {
-  margin-left: -18px;
+  margin-left: -9px;
 }
 
 .logo_text1 {
@@ -65,5 +65,79 @@ header {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+}
+
+.slaider__button {
+  width: 50px;
+  margin-left: 40px !important;
+  margin-right: 10px !important;
+  padding-bottom: 420px;
+}
+
+.slaider__button button {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+  background: #757575;
+}
+
+.slaider__button button.active {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  height: 0px !important;
+  background: #FFFFFF !important;
+}
+
+.carousel-caption div {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-left: 72px;
+  color: #FFFFFF;
+}
+
+.carousel-caption button {
+  padding: 12px 62px;
+  background-color: rgba(28, 28, 28, 0);
+  border: 1px solid #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 355px;
+  margin-top: 60px;
+  margin-left: 72px;
+}
+
+.navbar__lower__block {
+  width: 1300px;
+  background: #304E58 !important;
+  height: 69px !important;
+}
+
+.section__clider {
+  position: relative;
+}
+
+.lowerbar {
+  position: absolute;
+  width: 1300px;
+  background: #304E58 !important;
+  height: 69px !important;
+  margin-bottom: 120px;
+}
+
+.div_border {
+  width: 1px;
+  height: 35px;
+  margin-left: 10px;
+  background: #FFFFFF;
+}
+
+.lowerbar__nav {
+  gap: 85px;
+  margin-right: 100px;
 }
 /*# sourceMappingURL=main.css.map */

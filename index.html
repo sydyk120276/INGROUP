@@ -4,57 +4,278 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@200;400;500;700&family=Roboto:ital@0;1&family=Shizuru&display=swap"
-      rel="stylesheet"
-    />
     <title>IN_GROUP</title>
-    <!-- CSS only -->
+    <!-- Подключение стилей -->
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-      <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@200;400;500;700&family=Roboto:ital@0;1&family=Shizuru&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Подключение стилей -->
   </head>
+
   <body>
-    <header>
+    <!-- HEADER  START-->
+    <header class="container">
       <nav class="navbar navbar-expand-lg">
-        <div class="container d-flex justify-content-around">
-          <div class="logo d-flex flex-column align-items-center ml-n2">
-          <a class="mb-1" href="#">
-            <svg
-              width="20"
-              height="27"
-              viewBox="0 0 20 27"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M8.96469 0.876563L8.125 1.75281V9.40187V17.0509L10 18.9062L11.875 20.7616V11.2206V1.67938L10.9984 0.839686C10.5166 0.377811 10.0506 0 9.96313 0C9.87594 0 9.42656 0.394375 8.96469 0.876563ZM1.94406 7.89906L0 9.86063V18.0553V26.25H2.03125H4.0625V16.0938C4.0625 10.5078 4.02344 5.9375 3.97531 5.9375C3.9275 5.9375 3.01344 6.82031 1.94406 7.89906ZM15.9375 16.0247V26.25H17.9688H20V18.0378V9.82563L17.9688 7.8125L15.9375 5.79937V16.0247ZM8.125 24.5312V26.25H9.91125H11.6975L10 24.5312C9.06656 23.5859 8.2625 22.8125 8.21375 22.8125C8.165 22.8125 8.125 23.5859 8.125 24.5312Z"
-                fill="white"
-              />
+        <div class="hedear__block d-flex justify-content-around">
+          <div
+            class="logo d-flex flex-column align-items-center justify-content-center ml-n2"
+          >
+            <a class="mb-1" href="#">
+              <svg
+                width="20"
+                height="27"
+                viewBox="0 0 20 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.96469 0.876563L8.125 1.75281V9.40187V17.0509L10 18.9062L11.875 20.7616V11.2206V1.67938L10.9984 0.839686C10.5166 0.377811 10.0506 0 9.96313 0C9.87594 0 9.42656 0.394375 8.96469 0.876563ZM1.94406 7.89906L0 9.86063V18.0553V26.25H2.03125H4.0625V16.0938C4.0625 10.5078 4.02344 5.9375 3.97531 5.9375C3.9275 5.9375 3.01344 6.82031 1.94406 7.89906ZM15.9375 16.0247V26.25H17.9688H20V18.0378V9.82563L17.9688 7.8125L15.9375 5.79937V16.0247ZM8.125 24.5312V26.25H9.91125H11.6975L10 24.5312C9.06656 23.5859 8.2625 22.8125 8.21375 22.8125C8.165 22.8125 8.125 23.5859 8.125 24.5312Z"
+                  fill="white"
+                />
               </svg>
             </a>
             <span class="logo_text1 mb-1">INGROUP</span>
             <span class="logo_text2 mb-1">D E V E L O P E R</span>
           </div>
-            <div class="navbar-nav d-flex">
-              <a class="nav-link active" aria-current="page" href="#">АКЦИИ</a>
-              <a class="nav-link" href="#">ВЫБЕРИ ЖИЛЬЕ</a>
-              <a class="nav-link" href="#">КОММЕРЦИЯ</a>
-              <a class="nav-link" href="#">О КОМПАНИИ</a>
-              <a class="nav-link" href="#">КОНТАКТЫ</a>
-            </div>
-          <div class="telefon d-flex">+996 707 50-60-50</div>
+          <div class="navbar-nav d-flex align-items-center">
+            <a class="nav-link active" aria-current="page" href="#">АКЦИИ</a>
+            <a class="nav-link" href="#">ВЫБЕРИ ЖИЛЬЕ</a>
+            <a class="nav-link" href="#">КОММЕРЦИЯ</a>
+            <a class="nav-link" href="#">О КОМПАНИИ</a>
+            <a class="nav-link" href="#">КОНТАКТЫ</a>
+          </div>
+          <div class="telefon d-flex align-items-center">+996 707 50-60-50</div>
         </div>
       </nav>
     </header>
+
+    <!-- HEADER END-->
+
+    <!-- SLIDER START-->
+
+    <section class="container section__clider">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators flex-column slaider__button">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="img/slaider_image_1.svg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block mb-12">
+              <div class="d-flex flex-column justify-content-start">
+                <span class="d-flex">Строительная компания</span>
+                <span class="d-flex">IN GROUP</span>
+              </div>
+              <button type="button" class="d-flex justify-content-start">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="img/slaider_image_2.svg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="d-flex flex-column justify-content-start">
+                <span class="d-flex">Строительная компания</span>
+                <span class="d-flex">IN GROUP</span>
+              </div>
+              <button type="button" class="d-flex justify-content-start">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/slaider_image_3.svg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="d-flex flex-column justify-content-start">
+                <span class="d-flex">Строительная компания</span>
+                <span class="d-flex">IN GROUP</span>
+              </div>
+              <button type="button" class="d-flex justify-content-start">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container lowerbar">
+            <svg
+              class="ml-5"
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <rect width="30" height="30" fill="url(#pattern0)" />
+              <defs>
+                <pattern
+                  id="pattern0"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use xlink:href="#image0_9_82" transform="scale(0.02)" />
+                </pattern>
+                <image
+                  id="image0_9_82"
+                  width="50"
+                  height="50"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFUElEQVRoge2ZTWwUZRjHf8/MFpC0FYyh3ZYKu9t4gcSrfATxJkjURKp8+HUwITGmxJJGFHYddinEGGsoF+NNRAqhiYGIxIPGL8ALiQf1QOguDXS3rUTAJhDanXk87BRrd7vdmSmyifxOk5l5nuf/n/d9533nHbjPfe4KEiR4xFraOG4b68XQJ1BZDroEpN69fAMYQPQ3VfkulNevGvZlhoNLLo0vI1krskZt6RThKSBUYVhe4LSqftCUyvzop245PBkZ3t0asw3nILDOPWUDZ1BOGDhnMM1MQ3bBNYDhpusLwY6qI6sUeRZYCZhu3CnTCLU3WBfS/7mRbCK6FfgYqAVuIvTImNEd3n/xj0rih6zYInW0Q6EdeAAYVdjWnEz3+lI+hYqM5OLRhAp7CgF6LG/X7GjpujDop+AVq3Wx4Wg3aFshnyTCyf6Un1yTmdHIYCJqCbwHqEKyKZneI6BBC2cT0e1AN2DMhpmyRtzudBhwxNAXw1amL0ixqeQSkTZFjgKGqmxuTvUf9ZtrWiPuwP4FqFXY2ZxMv++3SDmy8ehOhP3AqOHYjzXuHcj4yWNMd8F9O9UKeuxumQAIp9LvgxwH6mwxe/zmKWkka0XWUHjF3nJso9Nv8koQUNs23wJuirAha0VX+8lT0oja0ulWOdDc1X/Zv8zKaOm6MChwEEAmanukyMiItbTRnbFtGTO6A2qsGDGkG7BVdN2QFVvkNb7IyLgjTwMhkJ8qnexmg0arfwQ4B9Soc2flUDFFRkRYA4DqycDqPCKqJwAc0bVeY4vHiMrywgXnTGBlHnFM4yyAKMu8xpYY7LoEQPOhWVvQVUpozOl3D5d6jS1hROoA/pw790YgVT74a9S87h7Wl72xBNNOiPeYMa8BpbrWKMBDt28/GFyPN+rr7AXu4YjX2FJdawBA5uZjgVT5IG8are5hzmtssRHRXwEc21gZTJZ3DJwVrobfvcdOQR35vpCM54IK84qKFGqKfO01tshIyNZTQB5Y6Wep4Be31uNA/jbOt17ji4w07MsMC5wGTHW0YxY0VoSq7gBMkC8i1qXrMwZMoeTr11ZjP4DC9sFdsZaAGmfk8q5Hm1V5k0JRX98+JY0sTl08p8qXwDwx+VADbuSVQ0FMM38AmA96oinVf95PnmknRFPtdmAUtC0Xj77tV+hM5OKRd4Dngat5I/+G3zzTGmncO5BR2AaA0JVLRNr8FpmOXDzyAiIpAMV4/RHrctZvrrJLlOZkuleQBGAocjQbj+6cjW6mINl45F0V6XU1OIJTGyRnZRt0iVhc0aQbctwxpGOxdfGKn4KDu2ItYupHFLrTZGyUV5pS6SN+8lb8dAfjsU0i+glQB9wS6BFDut0vuxkZsmKLVHWHKu3APGAUmM8/+8EAtsLLfrZRPXWTod1LIraYPSJsmCgMnBXVk45pnA2NOf1X58y/BvDw2M2F+TlGzHBYpegzwIoJ0YIeGzfyHSG7Zi3Codkw4/O3QnS12NKpouup/LfCGEKfIc7BRuvSz3dyxaNbSppRecnLzmOggVvYYWed4jwJsozCl109hSXOVWAIOK8qPxh5+Wa6zYzBRHSzwGcEMHPXJjqvuPvAR/h3C9uovtaUyhyeKb5qjEAZM/BqUzL9ebnYqjIC/s1U3Td7OJk5LoZupjDOJjCBT93fHCWpuhaZIGdFNqojvRSNmdKTZtW1yARhK9Pntsz4pNMmwqFsPLpl6v1V2yITuC1zBKiZdLqoZaq2RSYIW5k+QbcyZcwItE6+r+qNQOEFAGzC7WYCVjiVTt5bVQHIWZGNuUQsfq913Od/xd8FfPv9xR1qWQAAAABJRU5ErkJggg=="
+                />
+              </defs></svg>
+               <div class="div_border"></div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-center " id="navbarNavDropdown">
+            <ul class="navbar-nav lowerbar__nav d-flex align-items-center">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Городские проекты ( 56 )
+                  <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 6V8H9V6H7Z" fill="white"/>
+                  </svg>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Показать на карте</a>
+              </li>
+              <li class="nav-item dropdown  d-flex">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Класс проекта
+                   <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 6V8H9V6H7Z" fill="white"/>
+                  </svg>
+                </a>
+                <div class="div_border"></div>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown d-flex">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Район
+                  <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 6V8H9V6H7Z" fill="white"/>
+                  </svg>
+                </a>
+                <div class="div_border"></div>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- SLIDER END-->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
