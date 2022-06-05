@@ -17,7 +17,7 @@ header {
 }
 
 .hedear__block {
-  width: 1300px;
+  width: 1320px;
   background: #304E58 !important;
   height: 95px !important;
 }
@@ -60,7 +60,7 @@ header {
   line-height: 11px;
 }
 
-.telefon {
+.telephone {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -112,7 +112,6 @@ header {
 }
 
 .navbar__lower__block {
-  width: 1300px;
   background: #304E58 !important;
   height: 69px !important;
 }
@@ -123,7 +122,6 @@ header {
 
 .lowerbar {
   position: absolute;
-  width: 1300px;
   background: #304E58 !important;
   height: 69px !important;
   margin-bottom: 120px;
@@ -139,5 +137,148 @@ header {
 .lowerbar__nav {
   gap: 85px;
   margin-right: 100px;
+}
+
+.container {
+  padding: 0;
+}
+
+.progect {
+  width: 1320px;
+  background-image: url("../img/project/Bakground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.house {
+  gap: 30px 40px;
+  padding-top: 30px;
+}
+
+.house__item {
+  position: relative;
+  width: 410px;
+  height: 325px;
+}
+
+.house__item--block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 380px;
+  height: 25px;
+  position: absolute;
+  bottom: 20px;
+  padding-left: 30px;
+}
+
+.house__item--block span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.project-title button {
+  background-color: rgba(28, 28, 28, 0);
+  border: 1px solid #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-top: 60px;
+  width: 227px;
+  height: 48px;
+}
+
+.project-title .span1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin-top: 119px;
+}
+
+.project-title div {
+  margin-top: 40px;
+  margin-bottom: 90px;
+  width: 486px;
+  height: 61px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.project-title .button2 {
+  margin-bottom: 120px;
+}
+
+.project-title .span2 {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.project-title .logo-project-title {
+  margin-bottom: 0;
+}
+
+.map {
+  height: 280px;
+}
+
+.footer {
+  width: 100%;
+  height: 240px;
+  background: #304E58 !important;
+}
+
+.footer span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer button {
+  background-color: rgba(28, 28, 28, 0);
+  border: 1px solid #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  width: 206px;
+  height: 42px;
+}
+
+.social_network {
+  gap: 20px;
+  margin-right: 200px;
+}
+
+.social_network .telephone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */
