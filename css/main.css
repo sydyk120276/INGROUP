@@ -17,7 +17,7 @@ header {
 }
 
 .hedear__block {
-  width: 1320px;
+  width: 1300px;
   background: #304E58 !important;
   height: 95px !important;
 }
@@ -88,6 +88,10 @@ header {
   background: #FFFFFF !important;
 }
 
+.carousel-caption {
+  width: 1300px !important;
+}
+
 .carousel-caption div {
   font-style: normal;
   font-weight: 700;
@@ -122,6 +126,7 @@ header {
 
 .lowerbar {
   position: absolute;
+  width: 1300px;
   background: #304E58 !important;
   height: 69px !important;
   margin-bottom: 120px;
@@ -139,12 +144,8 @@ header {
   margin-right: 100px;
 }
 
-.container {
-  padding: 0;
-}
-
 .progect {
-  width: 1320px;
+  width: 1300px;
   background-image: url("../img/project/Bakground3.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -158,7 +159,7 @@ header {
 
 .house__item {
   position: relative;
-  width: 410px;
+  width: 380px;
   height: 325px;
 }
 
@@ -353,6 +354,50 @@ header {
   font-weight: 500;
   font-size: 36px;
   line-height: 44px;
+  color: #FFFFFF;
+}
+
+.information {
+  position: relative;
+  height: 2100px;
+  width: 1500px;
+  background-image: url("../img/commerce/image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.information .block1 {
+  height: 520px;
+  width: 439px;
+}
+
+.information .block1 div {
+  width: 439px;
+  height: 395px;
+  margin-top: 80px;
+  background: #C4C4C4;
+}
+
+.information .block2 {
+  height: 570px;
+  width: 520px;
+}
+
+.information .block2 div {
+  width: 439px;
+  height: 395px;
+  margin-top: 30px;
+  background: #C4C4C4;
+}
+
+.information span {
+  margin-top: 90px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
   color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */
