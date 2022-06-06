@@ -304,3 +304,43 @@ line-height: 22px;
     color: #FFFFFF;
   }
 }
+
+
+// <!------------------------------------ choose_accommodation --------------------------------------------->
+
+.image {
+  position: relative;
+  button {
+    position: absolute;
+    font-style: normal;
+    left: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    box-sizing: border-box;
+    width: 344px;
+    height: 390px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 3px solid #000000;
+    backdrop-filter: blur(4px);
+  }
+  .string3 {
+    margin-right: 105px;
+  }
+  .color_white {
+    color: white;
+  }
+}
+
+.news {
+width: 1300px;
+height: 219px;
+background: #405258;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+color: #FFFFFF;
+}

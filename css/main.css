@@ -313,4 +313,46 @@ header {
   text-align: center;
   color: #FFFFFF;
 }
+
+.image {
+  position: relative;
+}
+
+.image button {
+  position: absolute;
+  font-style: normal;
+  left: 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 344px;
+  height: 390px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 3px solid #000000;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.image .string3 {
+  margin-right: 105px;
+}
+
+.image .color_white {
+  color: white;
+}
+
+.news {
+  width: 1300px;
+  height: 219px;
+  background: #405258;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=main.css.map */
