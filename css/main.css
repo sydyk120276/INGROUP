@@ -145,7 +145,7 @@ header {
 
 .progect {
   width: 1320px;
-  background-image: url("../img/project/Bakground.png");
+  background-image: url("../img/project/Bakground3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -284,5 +284,33 @@ header {
 
 .items {
   height: 869px;
+  background-image: url("../img/Bakground2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.items svg {
+  margin-top: 150px;
+}
+
+.items span {
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.items div {
+  margin-top: 40px;
+  width: 800px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */
