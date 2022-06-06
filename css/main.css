@@ -437,25 +437,27 @@ header {
 }
 
 .information .block1 {
-  height: 520px;
+  height: 820px;
   width: 439px;
+  margin-right: 165px;
 }
 
 .information .block1 div {
   width: 439px;
-  height: 395px;
+  height: 400px;
   margin-top: 80px;
   background: #C4C4C4;
 }
 
 .information .block2 {
-  height: 570px;
+  height: 700px;
   width: 520px;
 }
 
 .information .block2 div {
   width: 439px;
   height: 395px;
+  margin-left: 50px;
   margin-top: 30px;
   background: #C4C4C4;
 }
@@ -467,6 +469,96 @@ header {
   font-size: 36px;
   line-height: 44px;
   text-align: center;
+  color: #FFFFFF;
+}
+
+.information .row {
+  gap: 70px;
+}
+
+.information .row div {
+  width: 378px;
+  height: 218px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #2A4451), color-stop(163.89%, rgba(0, 0, 0, 0)));
+  background: linear-gradient(270deg, #2A4451 50%, rgba(0, 0, 0, 0) 163.89%);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information2 {
+  width: 1500px;
+  height: 140px;
+  background-color: #000000;
+}
+
+.information2 span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information2 a {
+  margin-right: 250px;
+  margin-left: 130px;
+}
+
+.information3 {
+  width: 1500px;
+  height: 950px;
+}
+
+.information3__block {
+  width: 771px;
+  height: 365px;
+  gap: 15px;
+  background: #405258;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.information4 {
+  width: 1500px;
+  height: 711px;
+  left: 0px;
+  top: 3185px;
+  background: #405258;
+}
+
+.information4__block {
+  width: 520px;
+  height: 577px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.information4__block span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
   color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */
