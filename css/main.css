@@ -14,16 +14,13 @@ body {
 header {
   margin: 0 auto;
   color: #FFFFFF;
+  background: #304E58 !important;
 }
 
 .hedear__block {
-  width: 1300px;
+  width: 100%;
   background: #304E58 !important;
   height: 95px !important;
-}
-
-.navbar-nav {
-  gap: 22px;
 }
 
 .nav-link {
@@ -36,10 +33,6 @@ header {
 
 .navbar {
   --bs-navbar-padding-y: 0 !important;
-}
-
-.logo {
-  margin-left: -9px;
 }
 
 .logo_text1 {
@@ -88,10 +81,6 @@ header {
   background: #FFFFFF !important;
 }
 
-.carousel-caption {
-  width: 1300px !important;
-}
-
 .carousel-caption div {
   font-style: normal;
   font-weight: 700;
@@ -116,32 +105,20 @@ header {
 }
 
 .navbar__lower__block {
-  width: 1300px !important;
   background: #304E58 !important;
   height: 69px !important;
 }
 
 .lowerbar {
-  width: 1300px;
-  height: 69px;
   background: #304E58 !important;
   height: 69px !important;
 }
 
-.div_border {
-  width: 1px;
-  height: 35px;
-  margin-left: 10px;
-  background: #FFFFFF;
-}
-
 .lowerbar__nav {
   gap: 85px;
-  margin-right: 100px;
 }
 
 .progect {
-  width: 1300px;
   background-image: url("../img/project/Bakground3.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -149,7 +126,7 @@ header {
 }
 
 .house {
-  gap: 30px 35px;
+  gap: 30px 30px;
   padding-top: 30px;
 }
 
@@ -244,12 +221,12 @@ header {
 }
 
 .map {
+  overflow: hidden;
   margin-top: 0px;
   height: 280px;
 }
 
-.footer {
-  width: 100%;
+.section-footer {
   height: 240px;
   background: #304E58 !important;
 }
@@ -301,7 +278,6 @@ header {
 }
 
 .items {
-  width: 1300px !important;
   height: 869px;
   background-image: url("../img/Bakground2.png");
   background-size: cover;
@@ -366,7 +342,6 @@ header {
 }
 
 .news {
-  width: 1300px;
   height: 219px;
   background: #405258;
   font-style: normal;
@@ -409,10 +384,6 @@ header {
   width: 280px;
 }
 
-.choose-footer img {
-  width: 1300px !important;
-}
-
 .choose-footer .input {
   height: 25px;
 }
@@ -429,7 +400,6 @@ header {
 .information {
   position: relative;
   height: 2100px;
-  width: 1500px;
   background-image: url("../img/commerce/image.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -499,7 +469,6 @@ header {
 }
 
 .information2 {
-  width: 1500px;
   height: 140px;
   background-color: #000000;
 }
@@ -519,7 +488,6 @@ header {
 }
 
 .information3 {
-  width: 1500px;
   height: 950px;
 }
 
@@ -537,7 +505,6 @@ header {
 }
 
 .information4 {
-  width: 1500px;
   height: 711px;
   left: 0px;
   top: 3185px;

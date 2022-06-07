@@ -14,14 +14,14 @@ body {
 header {
   margin: 0 auto;
   color: #FFFFFF;
+  background: #304E58 !important;
 }
 .hedear__block {
-  width: 1300px;
+  width: 100%;
   background: #304E58 !important;
   height: 95px !important;
 }
-.navbar-nav {
-  gap: 22px;
+.header-title {
 }
 .nav-link {
   color: #FFFFFF !important;
@@ -35,7 +35,6 @@ header {
   --bs-navbar-padding-y: 0 !important;
 }
 .logo {
-  margin-left: -9px;
 }
 
 .logo_text1 {
@@ -85,7 +84,7 @@ line-height: 22px;
      }
 
      .carousel-caption {
-      width: 1300px !important;
+      // width: 1300px !important;
        div {
          font-style: normal;
          font-weight: 700;
@@ -110,39 +109,35 @@ line-height: 22px;
      }
 
      .navbar__lower__block {
-         width: 1300px !important;
+        //  width: 1300px !important;
          background: #304E58 !important;
          height: 69px !important;
      }
       .lowerbar{
-         width: 1300px;
-         height: 69px;
          background: #304E58 !important;
          height: 69px !important;
        }
-       .div_border {
-          width: 1px;
-          height: 35px;
-          margin-left: 10px;
-          background: #FFFFFF;
-       }
+      //  .div_border {
+      //     width: 1px;
+      //     height: 35px;
+      //     margin-left: 10px;
+      //     background: #FFFFFF;
+      //  }
        .lowerbar__nav {
          gap: 85px;
-         margin-right: 100px;
        }
 
 //    <!-- PROJECTS START-->
 
 
 .progect {
-  width: 1300px;
   background-image: url("../img/project/Bakground3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .house {
-  gap: 30px 35px;
+  gap: 30px 30px;
   padding-top: 30px;
   &__item {
     position: relative;
@@ -228,6 +223,7 @@ line-height: 22px;
 //  <!-- MAP START-->
 
 .map {
+  overflow: hidden;
   margin-top: 0px;
   height: 280px;
 }
@@ -236,10 +232,13 @@ line-height: 22px;
 
 // <!-- FOOTER START -->
 
-.footer {
-  width: 100%;
+
+.section-footer {
   height: 240px;
   background: #304E58 !important;
+}
+.footer {
+
   svg {
     margin-left: 28px;
   }
@@ -289,7 +288,7 @@ line-height: 22px;
 // <!------------------------------------ ABOUT_COMPANY ----------------------------------------------->
 
 .items {
-  width: 1300px !important;
+  // width: 1300px !important;
   height: 869px;
   background-image: url("../img/Bakground2.png");
   background-size: cover;
@@ -349,7 +348,7 @@ line-height: 22px;
 }
 
 .news {
-width: 1300px;
+// width: 1300px;
 height: 219px;
 background: #405258;
 font-style: normal;
@@ -388,7 +387,7 @@ color: #FFFFFF;
     }
   }
   img {
-    width: 1300px !important;
+    // width: 1300px !important;
   }
   .input {
    height: 25px;
@@ -412,7 +411,7 @@ color: #FFFFFF;
 .information {
     position: relative;
     height: 2100px;
-    width: 1500px;
+    // width: 1500px;
     background-image: url("../img/commerce/image.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -467,7 +466,7 @@ color: #FFFFFF;
     }
 }
 .information2 {
-  width: 1500px;
+  // width: 1500px;
   height: 140px;
   background-color: #000000;
   span {
@@ -484,7 +483,7 @@ color: #FFFFFF;
   }
 }
 .information3 {
-  width: 1500px;
+  // width: 1500px;
   height: 950px;
   &__block {
     width: 771px;
@@ -500,7 +499,7 @@ color: #FFFFFF;
   }
 }
 .information4 {
-    width: 1500px;
+    // width: 1500px;
     height: 711px;
     left: 0px;
     top: 3185px;
