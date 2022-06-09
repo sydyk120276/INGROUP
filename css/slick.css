@@ -20,8 +20,8 @@
 .slider__item {
     z-index: 1 !important;
     height: 705px;
-      -webkit-filter: brightness(60%);
-  filter: brightness(60%);
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
 }
 
 .slider .slick-track {

@@ -1,192 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IN_GROUP</title>
-    <!-- Подключение стилей -->
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@200;400;500;700&family=Roboto:ital@0;1&family=Shizuru&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Подключение стилей -->
-  </head>
 
-  <body>
-    <!-- HEADER  START-->
-    <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IN_GROUP</title>
+  <!-- Подключение стилей -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@200;400;500;700&family=Roboto:ital@0;1&family=Shizuru&display=swap"
+    rel="stylesheet" />
+  <!-- Подключение стилей -->
+</head>
+
+<body>
+  <!-- HEADER  START-->
+  <header>
+    <div class="container-xxl ">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="header__block d-flex justify-content-around">
+          <div class="logo d-flex flex-column align-items-center justify-content-center ml-n2">
+            <a class="mb-1" href="index.html">
+              <svg width="20" height="27" viewBox="0 0 20 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8.96469 0.876563L8.125 1.75281V9.40187V17.0509L10 18.9062L11.875 20.7616V11.2206V1.67938L10.9984 0.839686C10.5166 0.377811 10.0506 0 9.96313 0C9.87594 0 9.42656 0.394375 8.96469 0.876563ZM1.94406 7.89906L0 9.86063V18.0553V26.25H2.03125H4.0625V16.0938C4.0625 10.5078 4.02344 5.9375 3.97531 5.9375C3.9275 5.9375 3.01344 6.82031 1.94406 7.89906ZM15.9375 16.0247V26.25H17.9688H20V18.0378V9.82563L17.9688 7.8125L15.9375 5.79937V16.0247ZM8.125 24.5312V26.25H9.91125H11.6975L10 24.5312C9.06656 23.5859 8.2625 22.8125 8.21375 22.8125C8.165 22.8125 8.125 23.5859 8.125 24.5312Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <span class="logo_text1 mb-1">INGROUP</span>
+            <span class="logo_text2 mb-1">D E V E L O P E R</span>
+          </div>
+          <div class="header-title d-flex align-items-center">
+            <a class="nav-link active" aria-current="page" href="#">АКЦИИ</a>
+            <a class="nav-link " href="choose_accommodation.html">ВЫБЕРИ ЖИЛЬЕ</a>
+            <a class="nav-link" href="commerce.html">КОММЕРЦИЯ</a>
+            <a class="nav-link" href="about_company.html">О КОМПАНИИ</a>
+            <a class="nav-link" href="#">КОНТАКТЫ</a>
+          </div>
+          <div class="telephone d-flex align-items-center">
+            +996 707 50-60-50
+          </div>
+          <div class="burger-block d-flex align-items-center">
+            <div class="d-flex  burger">
+              <span class="burger-span"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="burger-menu">
+    <a class="nav-link active" aria-current="page" href="#">АКЦИИ</a>
+    <a class="nav-link " href="choose_accommodation.html">ВЫБЕРИ ЖИЛЬЕ</a>
+    <a class="nav-link" href="commerce.html">КОММЕРЦИЯ</a>
+    <a class="nav-link" href="about_company.html">О КОМПАНИИ</a>
+    <a class="nav-link" href="#">КОНТАКТЫ</a>
+  </div>
+
+  <!-- HEADER END-->
+
+  <section>
+    <div class="section-ingormation-background">
       <div class="container-xxl">
-        <nav class="navbar navbar-expand-lg">
-          <div class="hedear__block d-flex justify-content-around">
-            <div
-              class="logo d-flex flex-column align-items-center justify-content-center ml-n2"
-            >
-              <a class="mb-1" href="index.html">
-                <svg
-                  width="20"
-                  height="27"
-                  viewBox="0 0 20 27"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8.96469 0.876563L8.125 1.75281V9.40187V17.0509L10 18.9062L11.875 20.7616V11.2206V1.67938L10.9984 0.839686C10.5166 0.377811 10.0506 0 9.96313 0C9.87594 0 9.42656 0.394375 8.96469 0.876563ZM1.94406 7.89906L0 9.86063V18.0553V26.25H2.03125H4.0625V16.0938C4.0625 10.5078 4.02344 5.9375 3.97531 5.9375C3.9275 5.9375 3.01344 6.82031 1.94406 7.89906ZM15.9375 16.0247V26.25H17.9688H20V18.0378V9.82563L17.9688 7.8125L15.9375 5.79937V16.0247ZM8.125 24.5312V26.25H9.91125H11.6975L10 24.5312C9.06656 23.5859 8.2625 22.8125 8.21375 22.8125C8.165 22.8125 8.125 23.5859 8.125 24.5312Z"
-                    fill="white"
-                  />
-                </svg>
-              </a>
-              <span class="logo_text1 mb-1">INGROUP</span>
-              <span class="logo_text2 mb-1">D E V E L O P E R</span>
+        <div class="information">
+          <div class="d-flex justify-content-around">
+            <div class="block1 d-flex flex-column">
+              <span>ИНФОРМАЦИЯ О ТОМ<br />
+                ‘КТО МЫ”</span>
+              <div></div>
             </div>
-            <div class="navbar-nav header-title d-flex align-items-center">
-              <a class="nav-link active" aria-current="page" href="#">АКЦИИ</a>
-              <a class="nav-link" href="choose_accommodation.html"
-                >ВЫБЕРИ ЖИЛЬЕ</a
-              >
-              <a class="nav-link" href="commerce.html">КОММЕРЦИЯ</a>
-              <a class="nav-link" href="about_company.html">О КОМПАНИИ</a>
-              <a class="nav-link" href="#">КОНТАКТЫ</a>
-            </div>
-            <div class="telephone d-flex align-items-center">
-              +996 707 50-60-50
+            <div class="block2 d-flex flex-column">
+              <span>КОНЦЕПЦИЯ БИЗНЕС<br />
+                ФИЛОСОФИИ КОМПАНИИ<br />ЕЕ МИССИЯ, ЦЕННОСТИ И<br />
+                ПРИНЦИПЫ.</span>
+              <div></div>
             </div>
           </div>
-        </nav>
+          <div class="row d-flex justify-content-center">
+            <div>КОЛИЧЕСТВО ПРОЕКТОВ НА<br />ДАННЫЙ МОМЕНТ</div>
+            <div>
+              СУММАРНОЕ КОЛИЧЕСТВО<br />КВАРТИР И КОТТЕДЖЕЙ<br />(НЕДВИЖИМОСТИ)
+            </div>
+            <div>КОЛИЧЕСТВО СОТРУДНИКОВ<br />НА ДАННЫЙ МОМЕНТ</div>
+          </div>
+        </div>
       </div>
-    </header>
-
-    <!-- HEADER END-->
-
-    <section>
-      <div class="section-ingormation-background">
+      <div class="section-ingormation-background2">
         <div class="container-xxl">
-          <div class="information">
-            <div class="d-flex justify-content-around">
-              <div class="block1 d-flex flex-column">
-                <span
-                  >ИНФОРМАЦИЯ О ТОМ<br />
-                  ‘КТО МЫ”</span
-                >
-                <div></div>
-              </div>
-              <div class="block2 d-flex flex-column">
-                <span
-                  >КОНЦЕПЦИЯ БИЗНЕС<br />
-                  ФИЛОСОФИИ КОМПАНИИ<br />ЕЕ МИССИЯ, ЦЕННОСТИ И<br />
-                  ПРИНЦИПЫ.</span
-                >
-                <div></div>
-              </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-              <div>КОЛИЧЕСТВО ПРОЕКТОВ НА<br />ДАННЫЙ МОМЕНТ</div>
-              <div>
-                СУММАРНОЕ КОЛИЧЕСТВО<br />КВАРТИР И КОТТЕДЖЕЙ<br />(НЕДВИЖИМОСТИ)
-              </div>
-              <div>КОЛИЧЕСТВО СОТРУДНИКОВ<br />НА ДАННЫЙ МОМЕНТ</div>
-            </div>
+          <div class="information2 d-flex justify-content-start align-items-center">
+            <a class="mb-1" href="index.html">
+              <svg width="70" height="90" viewBox="0 0 70 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M31.3764 3.00536L28.4375 6.00964V32.235V58.4604L35 64.8214L41.5625 71.1825V38.4707V5.75786L38.4945 2.87892C36.808 1.29535 35.1772 0 34.8709 0C34.5658 0 32.993 1.35214 31.3764 3.00536ZM6.80422 27.0825L0 33.8079V61.9039V90H7.10938H14.2188V55.1786C14.2188 36.0268 14.082 20.3571 13.9136 20.3571C13.7462 20.3571 10.547 23.3839 6.80422 27.0825ZM55.7812 54.9418V90H62.8906H70V61.8439V33.6879L62.8906 26.7857L55.7812 19.8836V54.9418ZM28.4375 84.1071V90H34.6894H40.9413L35 84.1071C31.733 80.8661 28.9187 78.2143 28.7481 78.2143C28.5775 78.2143 28.4375 80.8661 28.4375 84.1071Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <span>Преимущество нашей компании</span>
           </div>
         </div>
-        <div class="section-ingormation-background2">
-          <div class="container-xxl">
+      </div>
+      <div class="section-ingormation-background3">
+        <div class="container-xxl">
+          <div class="position-relative d-flex align-items-center justify-content-center information3">
             <div
-              class="information2 d-flex justify-content-start align-items-center"
-            >
-              <a class="mb-1" href="index.html">
-                <svg
-                  width="70"
-                  height="90"
-                  viewBox="0 0 70 90"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M31.3764 3.00536L28.4375 6.00964V32.235V58.4604L35 64.8214L41.5625 71.1825V38.4707V5.75786L38.4945 2.87892C36.808 1.29535 35.1772 0 34.8709 0C34.5658 0 32.993 1.35214 31.3764 3.00536ZM6.80422 27.0825L0 33.8079V61.9039V90H7.10938H14.2188V55.1786C14.2188 36.0268 14.082 20.3571 13.9136 20.3571C13.7462 20.3571 10.547 23.3839 6.80422 27.0825ZM55.7812 54.9418V90H62.8906H70V61.8439V33.6879L62.8906 26.7857L55.7812 19.8836V54.9418ZM28.4375 84.1071V90H34.6894H40.9413L35 84.1071C31.733 80.8661 28.9187 78.2143 28.7481 78.2143C28.5775 78.2143 28.4375 80.8661 28.4375 84.1071Z"
-                    fill="white"
-                  />
-                </svg>
-              </a>
-              <span>Преимущество нашей компании</span>
-            </div>
-          </div>
-        </div>
-        <div class="section-ingormation-background3">
-          <div class="container-xxl">
-            <div
-              class="position-relative d-flex align-items-center justify-content-center information3"
-            >
-              <div
-                class="d-flex flex-column position-absolute information3__block align-items-center justify-content-center"
-              >
-                <span>БЛОК О ПРЕМУЩЕСТВЕ НАШЕЙ КОМПАНИИ</span>
-                <span>+</span>
-                <span>ВИДЕО С ИЗЗАТ ИСМАТОВИЧЕМ</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section-ingormation-background4">
-          <div class="container-xxl">
-            <div
-              class="d-flex information4 justify-content-around align-items-center"
-            >
-              <div class="information4__block d-flex flex-column justify-content-center">
-                <span>БЛОК О НАШЕЙ КОМАНДЕ</span>
-                <div>
-                  block about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our teamblock about our teamblock about our
-                  teamblock about our team
-                </div>
-              </div>
-              <div>
-                <img src="img/commerce/image4.png" alt="" class="" />
-              </div>
+              class="d-flex flex-column position-absolute information3__block align-items-center justify-content-center">
+              <span>БЛОК О ПРЕМУЩЕСТВЕ НАШЕЙ КОМПАНИИ</span>
+              <span>+</span>
+              <span>ВИДЕО С ИЗЗАТ ИСМАТОВИЧЕМ</span>
             </div>
           </div>
         </div>
       </div>
-    </section>
+      <div class="section-ingormation-background4">
+        <div class="container-xxl">
+          <div class="d-flex information4 justify-content-around align-items-center">
+            <div class="information4__block d-flex flex-column justify-content-center">
+              <span>БЛОК О НАШЕЙ КОМАНДЕ</span>
+              <div>
+                block about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our teamblock about our teamblock about our
+                teamblock about our team
+              </div>
+            </div>
+            <div>
+              <img src="img/commerce/image4.png" alt="" class="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Подключение скриптов -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/script.js"></script>
-      <script src="js/slick.js"></script>
-    <!-- Подключение скриптов -->
-  </body>
+  <!-- Подключение скриптов -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="js/slick.js"></script>
+  <!-- Подключение скриптов -->
+</body>
+
 </html>

@@ -1,7 +1,4 @@
-// Slick slider
-// $(document).ready(function(){
-//   $('.slider').slick()
-// })
+
 $(".slider").slick({
   infinite: true,
   slidesToShow: 1,
@@ -12,14 +9,29 @@ $(".slider").slick({
   arrows: false,
   dots: true,
   vertical: true,
-  adaptiveHeight:false,
+  adaptiveHeight: false,
   speed: 1000,
   responsive: [
     {
-      breakpoint: 576,
+      breakpoint: 992,
       settings: {
-        arrows: false,
+        dots: false,
       },
     },
   ],
 });
+
+
+const list = document.querySelectorAll(".nav-link")
+list.forEach(item => {
+  item.addEventListener('click', (e) => {
+    list.forEach(el => { el.classList.remove('active'); });
+    item.classList.add('active')
+  })
+})
+
+document.querySelector(".burger-block").addEventListener('click', function () {
+  document.querySelector(".burger").classList.toggle("active")
+  document.querySelector(".burger-span").classList.toggle("active")
+  document.querySelector(".burger-menu").classList.toggle("active")
+})
