@@ -8,8 +8,8 @@
   <title>IN_GROUP</title>
   <!-- Подключение стилей -->
   <link rel="stylesheet" href="css/bootstrap.css" />
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" /> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/slick.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,11 +38,11 @@
             <span class="logo_text2 mb-1">D E V E L O P E R</span>
           </div>
           <div class="header-title d-flex align-items-center">
-            <a class="nav-link active" aria-current="page" href="#">АКЦИИ</a>
-            <a class="nav-link " href="choose_accommodation.html">ВЫБЕРИ ЖИЛЬЕ</a>
-            <a class="nav-link" href="commerce.html">КОММЕРЦИЯ</a>
-            <a class="nav-link" href="about_company.html">О КОМПАНИИ</a>
-            <a class="nav-link" href="#">КОНТАКТЫ</a>
+            <a class="header-link" aria-current="page" href="#">АКЦИИ</a>
+            <a class="header-link " href="choose_accommodation.html">ВЫБЕРИ ЖИЛЬЕ</a>
+            <a class="header-link" href="commerce.html">КОММЕРЦИЯ</a>
+            <a class="header-link" href="about_company.html">О КОМПАНИИ</a>
+            <a class="header-link" href="#">КОНТАКТЫ</a>
           </div>
           <div class="telephone d-flex align-items-center">
             +996 707 50-60-50
@@ -55,14 +55,15 @@
         </div>
       </nav>
     </div>
-  </header>
-  <div class="burger-menu">
+                <div class="burger-menu">
     <a class="nav-link active" aria-current="page" href="#">АКЦИИ</a>
     <a class="nav-link " href="choose_accommodation.html">ВЫБЕРИ ЖИЛЬЕ</a>
     <a class="nav-link" href="commerce.html">КОММЕРЦИЯ</a>
     <a class="nav-link" href="about_company.html">О КОМПАНИИ</a>
     <a class="nav-link" href="#">КОНТАКТЫ</a>
   </div>
+  </header>
+
 
   <!-- HEADER END-->
 
@@ -101,9 +102,11 @@
       </div>
       <span class="span1">996 707 50-60-50 <br>РАБОТАЕМ С 9:00-21:00</span>
     </div>
+
+
     <nav class="navbar navbar-expand-lg bg-light lowerbar">
       <div class="container-xxl">
-        <svg class="ml-5" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+        <svg class="ml-5 lowerbar__svg" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink">
           <rect width="30" height="30" fill="url(#pattern0)" />
           <defs>
@@ -114,11 +117,8 @@
               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFUElEQVRoge2ZTWwUZRjHf8/MFpC0FYyh3ZYKu9t4gcSrfATxJkjURKp8+HUwITGmxJJGFHYddinEGGsoF+NNRAqhiYGIxIPGL8ALiQf1QOguDXS3rUTAJhDanXk87BRrd7vdmSmyifxOk5l5nuf/n/d9533nHbjPfe4KEiR4xFraOG4b68XQJ1BZDroEpN69fAMYQPQ3VfkulNevGvZlhoNLLo0vI1krskZt6RThKSBUYVhe4LSqftCUyvzop245PBkZ3t0asw3nILDOPWUDZ1BOGDhnMM1MQ3bBNYDhpusLwY6qI6sUeRZYCZhu3CnTCLU3WBfS/7mRbCK6FfgYqAVuIvTImNEd3n/xj0rih6zYInW0Q6EdeAAYVdjWnEz3+lI+hYqM5OLRhAp7CgF6LG/X7GjpujDop+AVq3Wx4Wg3aFshnyTCyf6Un1yTmdHIYCJqCbwHqEKyKZneI6BBC2cT0e1AN2DMhpmyRtzudBhwxNAXw1amL0ixqeQSkTZFjgKGqmxuTvUf9ZtrWiPuwP4FqFXY2ZxMv++3SDmy8ehOhP3AqOHYjzXuHcj4yWNMd8F9O9UKeuxumQAIp9LvgxwH6mwxe/zmKWkka0XWUHjF3nJso9Nv8koQUNs23wJuirAha0VX+8lT0oja0ulWOdDc1X/Zv8zKaOm6MChwEEAmanukyMiItbTRnbFtGTO6A2qsGDGkG7BVdN2QFVvkNb7IyLgjTwMhkJ8qnexmg0arfwQ4B9Soc2flUDFFRkRYA4DqycDqPCKqJwAc0bVeY4vHiMrywgXnTGBlHnFM4yyAKMu8xpYY7LoEQPOhWVvQVUpozOl3D5d6jS1hROoA/pw790YgVT74a9S87h7Wl72xBNNOiPeYMa8BpbrWKMBDt28/GFyPN+rr7AXu4YjX2FJdawBA5uZjgVT5IG8are5hzmtssRHRXwEc21gZTJZ3DJwVrobfvcdOQR35vpCM54IK84qKFGqKfO01tshIyNZTQB5Y6Wep4Be31uNA/jbOt17ji4w07MsMC5wGTHW0YxY0VoSq7gBMkC8i1qXrMwZMoeTr11ZjP4DC9sFdsZaAGmfk8q5Hm1V5k0JRX98+JY0sTl08p8qXwDwx+VADbuSVQ0FMM38AmA96oinVf95PnmknRFPtdmAUtC0Xj77tV+hM5OKRd4Dngat5I/+G3zzTGmncO5BR2AaA0JVLRNr8FpmOXDzyAiIpAMV4/RHrctZvrrJLlOZkuleQBGAocjQbj+6cjW6mINl45F0V6XU1OIJTGyRnZRt0iVhc0aQbctwxpGOxdfGKn4KDu2ItYupHFLrTZGyUV5pS6SN+8lb8dAfjsU0i+glQB9wS6BFDut0vuxkZsmKLVHWHKu3APGAUmM8/+8EAtsLLfrZRPXWTod1LIraYPSJsmCgMnBXVk45pnA2NOf1X58y/BvDw2M2F+TlGzHBYpegzwIoJ0YIeGzfyHSG7Zi3Codkw4/O3QnS12NKpouup/LfCGEKfIc7BRuvSz3dyxaNbSppRecnLzmOggVvYYWed4jwJsozCl109hSXOVWAIOK8qPxh5+Wa6zYzBRHSzwGcEMHPXJjqvuPvAR/h3C9uovtaUyhyeKb5qjEAZM/BqUzL9ebnYqjIC/s1U3Td7OJk5LoZupjDOJjCBT93fHCWpuhaZIGdFNqojvRSNmdKTZtW1yARhK9Pntsz4pNMmwqFsPLpl6v1V2yITuC1zBKiZdLqoZaq2RSYIW5k+QbcyZcwItE6+r+qNQOEFAGzC7WYCVjiVTt5bVQHIWZGNuUQsfq913Od/xd8FfPv9xR1qWQAAAABJRU5ErkJggg==" />
           </defs>
         </svg>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+
+        <div class="lowerbar__div d-flex justify-content-center" id="navbarNavDropdown">
           <ul class="navbar-nav lowerbar__nav d-flex align-items-center">
             <li class="nav-item dropdown">
               <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
@@ -190,21 +190,21 @@
   <section class="progect">
     <div class="container-xxl">
       <div class="house d-flex flex-wrap">
-        <div class="house__item">
+        <div class="house__item ">
           <img class="house__item--img" src="/img/project/house1.png" alt="" />
           <div class="house__item--block">
             <span class="">LONDON</span>
             <img src="img/project/Arrow 1.png" alt="" class="" />
           </div>
         </div>
-        <div class="house__item">
+        <div class="house__item ">
           <img class="house__item--img" src="/img/project/house2.png" alt="" />
           <div class="house__item--block">
             <span class="">VICTORY+</span>
             <img src="img/project/Arrow 1.png" alt="" class="" />
           </div>
         </div>
-        <div class="house__item">
+        <div class="house__item ">
           <img class="house__item--img" src="/img/project/house3.png" alt="" />
           <div class="house__item--block">
             <span class="">LUXOR TOWNHOUSE</span>
@@ -230,6 +230,24 @@
           <div class="house__item--block">
             <span class="">HOUSE NAME</span>
             <img src="img/project/Arrow 1.png" alt="" class="" />
+          </div>
+        </div>
+                <div class="house__item_2">
+          <img class="house__item_2--img" src="/img/project/house1.png" alt="" />
+          <div class="house__item_2--block">
+            <span class="">HOUSE NAME</span>
+          </div>
+        </div>
+                <div class="house__item_2">
+          <img class="house__item_2--img" src="/img/project/house2.png" alt="" />
+          <div class="house__item_2--block">
+            <span class="">HOUSE NAME</span>
+          </div>
+        </div>
+                <div class="house__item_2">
+          <img class="house__item_2--img" src="/img/project/house3.png" alt="" />
+          <div class="house__item_2--block">
+            <span class="">HOUSE NAME</span>
           </div>
         </div>
       </div>
@@ -283,6 +301,24 @@
           <div class="house__item--block">
             <span class="">HOUSE NAME</span>
             <img src="img/project/Arrow 1.png" alt="" class="" />
+          </div>
+        </div>
+        <div class="house__item_2">
+          <img class="house__item_2--img" src="/img/project/house4.png" alt="" />
+          <div class="house__item_2--block">
+            <span class="">HOUSE NAME</span>
+          </div>
+        </div>
+        <div class="house__item_2">
+          <img class="house__item_2--img" src="/img/project/house5.png" alt="" />
+          <div class="house__item_2--block">
+            <span class="">HOUSE NAME</span>
+          </div>
+        </div>
+        <div class="house__item_2">
+          <img class="house__item_2--img" src="/img/project/house6.png" alt="" />
+          <div class="house__item_2--block">
+            <span class="">HOUSE NAME</span>
           </div>
         </div>
       </div>
