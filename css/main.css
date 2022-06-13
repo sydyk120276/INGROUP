@@ -393,6 +393,10 @@ header {
   height: 69px !important;
 }
 
+.lowerbar__svg {
+  margin-left: 250px;
+}
+
 @media screen and (max-width: 992px) {
   .lowerbar__svg {
     display: none;
@@ -945,6 +949,12 @@ header {
           backdrop-filter: blur(4px);
 }
 
+@media screen and (max-width: 576px) {
+  .image button {
+    width: 280px;
+  }
+}
+
 .image .string3 {
   margin-right: 105px;
 }
@@ -966,6 +976,13 @@ header {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 576px) {
+  .news {
+    font-size: 28px;
+    margin-left: 30px;
+  }
+}
+
 .footer-background {
   height: 354px;
   background-image: url("../img/choose_accommodation/Frame 10.png");
@@ -982,6 +999,14 @@ header {
           justify-content: center;
 }
 
+@media screen and (max-width: 576px) {
+  .choose-footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .choose-footer__form {
   position: absolute;
   gap: 50px;
@@ -991,6 +1016,12 @@ header {
   font-size: 24px;
   line-height: 29px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 576px) {
+  .choose-footer__form {
+    font-size: 20px;
+  }
 }
 
 .choose-footer__form button {
@@ -1007,6 +1038,12 @@ header {
   width: 280px;
 }
 
+@media screen and (max-width: 576px) {
+  .choose-footer__form button {
+    margin-left: 15px;
+  }
+}
+
 .choose-footer .input {
   height: 25px;
 }
@@ -1020,12 +1057,18 @@ header {
   padding-left: 10px;
 }
 
-.section-ingormation-background {
+@media screen and (max-width: 576px) {
+  .choose-footer input {
+    width: 50%;
+  }
+}
+
+.section-information-background {
   height: 2100px;
   background-image: url("../img/commerce/image.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: cente;
+  background-position: center;
 }
 
 .information {
@@ -1036,37 +1079,100 @@ header {
 .information .block1 {
   height: 820px;
   width: 439px;
-  margin-right: 165px;
+}
+
+@media screen and (max-width: 992px) {
+  .information .block1 {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .information .block1 {
+    width: 250px;
+  }
 }
 
 .information .block1 div {
   width: 439px;
   height: 400px;
-  margin-top: 80px;
+  margin-top: 120px;
   background: #C4C4C4;
+}
+
+@media screen and (max-width: 992px) {
+  .information .block1 div {
+    width: 350px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .information .block1 div {
+    width: 250px;
+    height: 300px;
+  }
 }
 
 .information .block2 {
   height: 700px;
-  width: 520px;
+  width: 450px;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .information .block2 {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .information .block2 {
+    width: 250px;
+  }
 }
 
 .information .block2 div {
   width: 439px;
   height: 395px;
-  margin-left: 50px;
   margin-top: 30px;
   background: #C4C4C4;
+}
+
+@media screen and (max-width: 992px) {
+  .information .block2 div {
+    width: 350px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .information .block2 div {
+    width: 250px;
+    height: 300px;
+  }
 }
 
 .information span {
   margin-top: 90px;
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 44px;
   text-align: center;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 992px) {
+  .information span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .information span {
+    font-size: 10px;
+  }
 }
 
 .information .row {
@@ -1113,9 +1219,22 @@ header {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 992px) {
+  .information2 span {
+    font-size: 30px;
+  }
+}
+
 .information2 a {
   margin-right: 250px;
   margin-left: 130px;
+}
+
+@media screen and (max-width: 992px) {
+  .information2 a {
+    margin-right: 70px;
+    margin-left: 100px;
+  }
 }
 
 .section-ingormation-background3 {
@@ -1123,7 +1242,7 @@ header {
   background-image: url("../img/commerce/image3.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: cente;
+  background-position: center;
 }
 
 .information3 {

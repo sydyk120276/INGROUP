@@ -289,6 +289,7 @@ line-height: 22px;
          height: 69px !important;
        }
        .lowerbar__svg {
+         margin-left: 250px;
           @media screen and (max-width: 992px) {
             display: none;
           }
@@ -765,6 +766,9 @@ line-height: 22px;
     background: rgba(255, 255, 255, 0.3);
     border: 3px solid #000000;
     backdrop-filter: blur(4px);
+    @media screen and (max-width: 576px) {
+      width: 280px;
+    }
   }
   .string3 {
     margin-right: 105px;
@@ -784,6 +788,10 @@ line-height: 22px;
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
+  @media screen and (max-width: 576px) {
+    font-size: 28px;
+    margin-left: 30px;
+  }
 }
 .footer-background {
   height: 354px;
@@ -796,6 +804,9 @@ line-height: 22px;
   position: relative;
   height: 354px;
   justify-content: center;
+  @media screen and (max-width: 576px) {
+   align-items: center;
+  }
 
   &__form {
     position: absolute;
@@ -806,6 +817,9 @@ line-height: 22px;
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
+    @media screen and (max-width: 576px) {
+      font-size: 20px;
+    }
     button {
       margin-top: 55px;
       margin-left: 40px;
@@ -818,6 +832,9 @@ line-height: 22px;
       color: #FFFFFF;
       padding: 15px;
       width: 280px;
+      @media screen and (max-width: 576px) {
+        margin-left: 15px;
+      }
     }
   }
   .input {
@@ -830,6 +847,9 @@ line-height: 22px;
      background-color: rgba(28,28,28,0) ;
      color: #FFFFFF;
      padding-left: 10px;
+     @media screen and (max-width: 576px) {
+      width: 50%;
+    }
   }
 
 
@@ -840,46 +860,80 @@ line-height: 22px;
 // <!------------------------------------commerce----------------------------------------------->
 
 
-.section-ingormation-background {
+.section-information-background {
     height: 2100px;
     background-image: url("../img/commerce/image.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: cente
+    background-position: center;
 }
 .information {
     position: relative;
     height: 2100px;
+
     .block1 {
       height: 820px;
       width: 439px;
-      margin-right: 165px;
+      @media screen and (max-width: 992px) {
+        width: 350px;
+      }
+      @media screen and (max-width: 776px) {
+        width: 250px;
+      }
       div {
         width: 439px;
         height: 400px;
-        margin-top: 80px;
+        margin-top: 120px;
         background: #C4C4C4;
+        @media screen and (max-width: 992px) {
+          width: 350px;
+          height: 380px;
+        }
+        @media screen and (max-width: 776px) {
+          width: 250px;
+          height: 300px;
+        }
       }
     }
     .block2 {
       height: 700px;
-      width: 520px;
+      width: 450px;
+      margin-right: 0;
+      @media screen and (max-width: 992px) {
+        width: 350px;
+      }
+      @media screen and (max-width: 776px) {
+        width: 250px;
+      }
       div {
         width: 439px;
         height: 395px;
-        margin-left: 50px;
         margin-top: 30px;
         background: #C4C4C4;
+        @media screen and (max-width: 992px) {
+          width: 350px;
+          height: 380px;
+        }
+        @media screen and (max-width: 776px) {
+          width: 250px;
+          height: 300px;
+        }
       }
     }
     span {
         margin-top: 90px;
         font-style: normal;
         font-weight: 500;
-        font-size: 36px;
+        font-size: 30px;
         line-height: 44px;
         text-align: center;
         color: #FFFFFF;
+        @media screen and (max-width: 992px) {
+          font-size: 20px;
+        }
+        @media screen and (max-width: 776px) {
+          font-size: 10px;
+        }
     }
     .row {
       gap: 70px;
@@ -912,10 +966,17 @@ line-height: 22px;
       line-height: 44px;
       text-align: center;
       color: #FFFFFF;
+      @media screen and (max-width: 992px) {
+        font-size: 30px;
+      }
   }
   a {
     margin-right: 250px;
     margin-left: 130px;
+    @media screen and (max-width: 992px) {
+      margin-right: 70px;
+      margin-left: 100px;
+    }
   }
 }
 .section-ingormation-background3 {
@@ -923,7 +984,7 @@ line-height: 22px;
     background-image: url("../img/commerce/image3.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: cente
+    background-position: center;
 }
 .information3 {
   height: 950px;
