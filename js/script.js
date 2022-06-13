@@ -22,11 +22,10 @@ $(".slider").slick({
 });
 
 
-// $(".header-link").click(function () {
-//   $(".header-link").removeClass("active");
-//   $(this).addClass("active");
-//   return false;
-// });
+$(".header-link").click(function () {
+  $(".header-link").removeClass("active");
+  $(this).addClass("active");
+});
 
 // var menuItems = document.getElementsByClassName("header-link");
 // var onClick = function (event) {
@@ -76,3 +75,4 @@ document.querySelector(".burger-block").addEventListener('click', function () {
   document.querySelector(".burger-span").classList.toggle("active")
   document.querySelector(".burger-menu").classList.toggle("active")
 })
+

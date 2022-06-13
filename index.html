@@ -24,7 +24,7 @@
   <!-- HEADER  START-->
   <header>
     <div class="container-xxl ">
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg">
         <div class="header__block d-flex justify-content-around">
           <div class="logo d-flex flex-column align-items-center justify-content-center ml-n2">
             <a class="mb-1" href="index.html">
@@ -55,13 +55,6 @@
         </div>
       </nav>
     </div>
-                <div class="burger-menu">
-    <a class="nav-link active" aria-current="page" href="#">АКЦИИ</a>
-    <a class="nav-link " href="choose_accommodation.html">ВЫБЕРИ ЖИЛЬЕ</a>
-    <a class="nav-link" href="commerce.html">КОММЕРЦИЯ</a>
-    <a class="nav-link" href="about_company.html">О КОМПАНИИ</a>
-    <a class="nav-link" href="#">КОНТАКТЫ</a>
-  </div>
   </header>
 
 
@@ -91,6 +84,13 @@
               background-position: center;
             "></div>
       </div>
+      <div class="burger-menu position-absolute">
+        <a class="nav-link active" aria-current="page" href="#">АКЦИИ</a>
+        <a class="nav-link " href="choose_accommodation.html">ВЫБЕРИ ЖИЛЬЕ</a>
+        <a class="nav-link" href="commerce.html">КОММЕРЦИЯ</a>
+        <a class="nav-link" href="about_company.html">О КОМПАНИИ</a>
+        <a class="nav-link" href="#">КОНТАКТЫ</a>
+      </div>
       <div class="position-absolute slider-block__title">
         <div class=" d-flex flex-column justify-content-start">
           <span class="d-flex">Строительная компания</span>
@@ -104,10 +104,12 @@
     </div>
 
 
+    <!-- LOWERBAR START-->
+
     <nav class="navbar navbar-expand-lg bg-light lowerbar">
       <div class="container-xxl">
-        <svg class="ml-5 lowerbar__svg" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="ml-5 lowerbar__svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <rect width="30" height="30" fill="url(#pattern0)" />
           <defs>
             <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -118,69 +120,75 @@
           </defs>
         </svg>
 
-        <div class="lowerbar__div d-flex justify-content-center" id="navbarNavDropdown">
-          <ul class="navbar-nav lowerbar__nav d-flex align-items-center">
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Городские проекты ( 56 )
-                <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="lowerbar__block">
+          <div class="lowerbar__div d-flex justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav lowerbar__nav d-flex align-items-center">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Городские проекты ( 56 )
+                  <!-- <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 6V8H9V6H7Z"
                     fill="white" />
-                </svg>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                </svg> -->
+                </a>
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Показать на карте</a>
-            </li>
-            <li class="nav-item dropdown d-flex">
-              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Класс проекта
-                <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              </ul> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Показать на карте</a>
+              </li>
+              <li class="nav-item dropdown d-flex">
+                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Класс проекта
+                  <!-- <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 6V8H9V6H7Z"
                     fill="white" />
-                </svg>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                </svg> -->
+                </a>
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown d-flex">
-              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Район
-                <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              </ul> -->
+              </li>
+              <li class="nav-item dropdown d-flex">
+                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Район
+                  <!-- <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 6V8H9V6H7Z"
                     fill="white" />
-                </svg>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                </svg> -->
+                </a>
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </li>
-              </ul>
-            </li>
-          </ul>
+              </ul> -->
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
+
+    <!-- LOWERBAR END-->
+
+
   </section>
 
   <!-- SLIDER END-->
@@ -232,41 +240,11 @@
             <img src="img/project/Arrow 1.png" alt="" class="" />
           </div>
         </div>
-                <div class="house__item_2">
-          <img class="house__item_2--img" src="/img/project/house1.png" alt="" />
-          <div class="house__item_2--block">
-            <span class="">HOUSE NAME</span>
-          </div>
-        </div>
-                <div class="house__item_2">
-          <img class="house__item_2--img" src="/img/project/house2.png" alt="" />
-          <div class="house__item_2--block">
-            <span class="">HOUSE NAME</span>
-          </div>
-        </div>
-                <div class="house__item_2">
-          <img class="house__item_2--img" src="/img/project/house3.png" alt="" />
-          <div class="house__item_2--block">
-            <span class="">HOUSE NAME</span>
-          </div>
-        </div>
-                <div class="house__item_3">
-          <img class="house__item_2--img" src="/img/project/house3.png" alt="" />
-          <div class="house__item_2--block">
-            <span class="">HOUSE NAME</span>
-          </div>
-        </div>
-                <div class="house__item_3">
-          <img class="house__item_2--img" src="/img/project/house3.png" alt="" />
-          <div class="house__item_2--block">
-            <span class="">HOUSE NAME</span>
-          </div>
-        </div>
       </div>
       <div class="d-flex flex-column align-items-center project-title">
         <button type="button" class="">ПОКАЗАТЬ БОЛЬШЕ</button>
         <span class="span1"> ПРОЕКТЫ IN GROUP DEVELOPMENT </span>
-        <div class="project-title__div">
+        <div class="">
           Проекты наших партнеров
           <br />Мы собрали лучшую недвижимость от <br />зарекомендовынных
           подрядчиков
@@ -315,36 +293,6 @@
             <img src="img/project/Arrow 1.png" alt="" class="" />
           </div>
         </div>
-        <div class="house__item_2">
-          <img class="house__item_2--img" src="/img/project/house4.png" alt="" />
-          <div class="house__item_2--block">
-            <span class="">HOUSE NAME</span>
-          </div>
-        </div>
-        <div class="house__item_2">
-          <img class="house__item_2--img" src="/img/project/house5.png" alt="" />
-          <div class="house__item_2--block">
-            <span class="">HOUSE NAME</span>
-          </div>
-        </div>
-        <div class="house__item_2">
-          <img class="house__item_2--img" src="/img/project/house6.png" alt="" />
-          <div class="house__item_2--block">
-            <span class="">HOUSE NAME</span>
-          </div>
-        </div>
-        <div class="house__item_3">
-          <img class="house__item_2--img" src="/img/project/house6.png" alt="" />
-          <div class="house__item_2--block">
-            <span class="">HOUSE NAME</span>
-          </div>
-        </div>
-        <div class="house__item_3">
-          <img class="house__item_2--img" src="/img/project/house6.png" alt="" />
-          <div class="house__item_2--block">
-            <span class="">HOUSE NAME</span>
-          </div>
-        </div>
       </div>
       <div class="d-flex flex-column align-items-center project-title">
         <button type="button" class="button2">ПОКАЗАТЬ БОЛЬШЕ</button>
@@ -352,28 +300,6 @@
           Проекты наших партнеров
           <br />Мы собрали лучшую недвижимость от <br />зарекомендовынных
           подрядчиков
-        </div>
-        </div>
-      <div class="d-flex flex-column align-items-center project-title__about_company">
-        <div class="d-flex about_company ">
-          <span class="">О КОМПАНИИ</span>
-        </div>
-        <div class="d-flex flex-column project-title__about_company--title">
-          <span>
-          Проекты наших партнеров<br />
-          Проекты наших партнеров<br />
-          Проекты наших партнеров<br />
-          Проекты наших партнеров<br />
-          Проекты наших партнеров<br />
-          </span>
-          <span>
-          Мы собрали лучшую недвижимость от <br />
-          Мы собрали лучшую недвижимость от <br />
-          Мы собрали лучшую недвижимость от <br />
-          Мы собрали лучшую недвижимость от <br />
-          Мы собрали лучшую недвижимость от <br />
-          Мы собрали лучшую недвижимость от <br />
-          </span>
         </div>
       </div>
       <div class="d-flex flex-column align-items-center project-title">
@@ -392,10 +318,10 @@
         <div class="d-flex flex-column address">
           <span>IN Group Development</span>
           <span>+996707 55-60-55</span><span>Расположение: Бишкек</span>
-         <span>Киевская 195: БЦ “Чынар”</span> <span>3 этаж</span>
-        </div>
+          <span>Киевская 195: БЦ “Чынар”</span> <span>3 этаж</span>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -405,10 +331,9 @@
 
   <section class="section-map">
     <div class="map">
-      <iframe
-        class="frame_map"
+      <iframe class="frame_map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.8495148151824!2d74.57526641575977!3d42.8760203103531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec8162400a293%3A0x1d304b8e4ea9b351!2zMTk1INGD0LsuINCa0LjQtdCy0YHQutCw0Y8sINCR0LjRiNC60LXQug!5e0!3m2!1sru!2skg!4v1654667296686!5m2!1sru!2skg"
-        width="3760" height="280" style="border: 0" allowfullscreen="" loading="lazy"
+        width="100%" height="280" style="border: 0" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
@@ -421,35 +346,27 @@
     <div class="container-xxl">
       <div class="footer d-flex justify-content-around align-items-center">
         <div class="d-flex footer_logo">
-        <a class="" href="#">
-          <svg width="70" height="90" viewBox="0 0 70 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M31.3764 3.00536L28.4375 6.00964V32.235V58.4604L35 64.8214L41.5625 71.1825V38.4707V5.75786L38.4945 2.87892C36.808 1.29535 35.1772 0 34.8709 0C34.5658 0 32.993 1.35214 31.3764 3.00536ZM6.80422 27.0825L0 33.8079V61.9039V90H7.10938H14.2188V55.1786C14.2188 36.0268 14.082 20.3571 13.9136 20.3571C13.7462 20.3571 10.547 23.3839 6.80422 27.0825ZM55.7812 54.9418V90H62.8906H70V61.8439V33.6879L62.8906 26.7857L55.7812 19.8836V54.9418ZM28.4375 84.1071V90H34.6894H40.9413L35 84.1071C31.733 80.8661 28.9187 78.2143 28.7481 78.2143C28.5775 78.2143 28.4375 80.8661 28.4375 84.1071Z"
-              fill="white" />
-          </svg>
-        </a>
+          <a class="" href="#">
+            <svg width="70" height="90" viewBox="0 0 70 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M31.3764 3.00536L28.4375 6.00964V32.235V58.4604L35 64.8214L41.5625 71.1825V38.4707V5.75786L38.4945 2.87892C36.808 1.29535 35.1772 0 34.8709 0C34.5658 0 32.993 1.35214 31.3764 3.00536ZM6.80422 27.0825L0 33.8079V61.9039V90H7.10938H14.2188V55.1786C14.2188 36.0268 14.082 20.3571 13.9136 20.3571C13.7462 20.3571 10.547 23.3839 6.80422 27.0825ZM55.7812 54.9418V90H62.8906H70V61.8439V33.6879L62.8906 26.7857L55.7812 19.8836V54.9418ZM28.4375 84.1071V90H34.6894H40.9413L35 84.1071C31.733 80.8661 28.9187 78.2143 28.7481 78.2143C28.5775 78.2143 28.4375 80.8661 28.4375 84.1071Z"
+                fill="white" />
+            </svg>
+          </a>
         </div>
-          <div class="d-flex justify-content-between social_network__adaptive">
-            <a href="#"><img src="img/icons8-instagram-100 1.png" alt="" /></a>
-            <a href="#"><img src="img/icons8-facebook-100 1.png" alt="" /></a>
-            <a href="#"><img src="img/icons8-vk-circled-100 1.png" alt="" /></a>
-            <a href="#"><img src="img/icons8-whatsapp-100 1.png" alt="" /></a>
+        <div class="d-flex align-items-center justify-content-between footer_span">
+          <div class="span1 d-flex">
+            Время работы офиса: 9:00 - 21:00
           </div>
-        <div class="d-flex gap-5 align-items-center footer_span">
-        <span class="span1 d-flex">
-          Время работы офиса:
-          <br />9:00 - 21:00
-        </span>
-        <span class="span2 d-flex"> Телефон:<br />+996 707 55-60-55 </span>
-        <span class="span3 d-flex">
-          Киевская 195
-          <br />БЦ “Чынар” <br />3 этаж
-        </span>
+          <div class="span2 d-flex"> Телефон: +996 707 55-60-55 </div>
+          <div class="span3 d-flex">
+            Киевская 195 БЦ “Чынар” 3 этаж
+          </div>
         </div>
         <div class="d-flex flex-column social_network">
-          <span class="telephone">+996 707 55-60-55</span>
+          <div class="social_network--telephone d-flex">+996 707 55-60-55</div>
           <button type="button" class="ml-2">ПОКАЗАТЬ БОЛЬШЕ</button>
-          <div class="d-flex justify-content-between">
+          <div class="d-flex gap-4">
             <a href="#"><img src="img/icons8-instagram-100 1.png" alt="" /></a>
             <a href="#"><img src="img/icons8-facebook-100 1.png" alt="" /></a>
             <a href="#"><img src="img/icons8-vk-circled-100 1.png" alt="" /></a>
@@ -462,14 +379,14 @@
 
   <!-- FOOTER END -->
 
-  <!-- Подключение скриптов -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/script.js"></script>
-  <!-- Подключение скриптов -->
+
 </body>
+<!-- Подключение скриптов -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
+<!-- Подключение скриптов -->
 
 </html>
