@@ -27,52 +27,45 @@ $(".header-link").click(function () {
   $(this).addClass("active");
 });
 
-// var menuItems = document.getElementsByClassName("header-link");
-// var onClick = function (event) {
-//   event.preventDefault();
-
-//   for (var i = 0; i < menuItems.length; i++) {
-//     menuItems[i].classList.remove("active");
-//   }
-
-//   event.currentTarget.classList.add("active");
-// };
-
-// for (var i = 0; i < menuItems.length; i++) {
-//   menuItems[i].addEventListener("click", onClick, false);
-// }
-
-// window.addEventListener("load", function () {
-//   var elem = document
-//     .getElementsByClassName("header-link")[0]
-//     .getElementsByTagName("a");
-//   for (var i = 0; i < elem.length; i++)
-//     elem[i].addEventListener("click", function () {
-//       localStorage.setItem("a", this.textContent);
-//     });
-//   for (var i = 0; i < elem.length; i++)
-//     if (elem[i].textContent == localStorage.getItem("a"))
-//       elem[i].classList.add("active");
-// });
-
-// var navLink = $(".header-link").on("click", function (e) {
-//   e.preventDefault();
-//   navLink.not(this).removeClass("active");
-//   $(this).addClass("active");
-// });
-
-// const list = document.querySelectorAll(".header-link");
-// console.log(list)
-// list.forEach(item => {
-//   item.addEventListener('click', (e) => {
-//     list.forEach(el => { el.classList.remove('active'); });
-//     item.classList.add('active')
-//   })
-// })
-
 document.querySelector(".burger-block").addEventListener('click', function () {
   document.querySelector(".burger").classList.toggle("active")
   document.querySelector(".burger-span").classList.toggle("active")
   document.querySelector(".burger-menu").classList.toggle("active")
 })
+
+const animItems = document.querySelectorAll('._anim-item')
+
+if (animItems.length > 0) {
+  window.addEventListener('scroll', animOnScroll)
+  function animOnScroll() {
+    for (let i = 0; i < animItems.length; i += 1) {
+      const animItem = animItems[i]
+      const animItemHeight = animItem.offsetHeight
+      const animItemOffset = offset(animItem).top
+      const animStart = 4
+
+      let animItemPoint = window.innerHeight - animItemHeight / animStart
+      if (animItemHeight > window.innerHeight) {
+        animItemPoint = window.innerHeight - window.innerHeight / animStart
+      }
+
+      if ((scrollY > animItemOffset - animItemPoint) && scrollY < (animItemOffset + animItemHeight)) {
+        animItem.classList.add('_active')
+      } else {
+        if (!animItem.classList.contains('_anim-no-hide')) {
+           animItem.classList.remove("_active");
+        }
+      }
+    }
+  }
+  function offset(el) {
+    const rect = el.getBoundingClientRect()
+      scrollLeft = window.scrollX || document.documentElement.scrollLeft
+      scrollTop = window.scrollY || document.documentElement.scrollTop;
+    return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+  }
+  setTimeout(() => {
+    animOnScroll();
+  }, 300)
+}
 

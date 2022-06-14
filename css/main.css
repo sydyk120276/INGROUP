@@ -314,6 +314,11 @@ header {
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
+  opacity: 0;
+  -webkit-transform: translate(0px, 100%);
+          transform: translate(0px, 100%);
+  -webkit-transition: all 0.9s ease 0s;
+  transition: all 0.9s ease 0s;
 }
 
 @media screen and (max-width: 776px) {
@@ -497,6 +502,48 @@ header {
   }
 }
 
+.house__item:nth-child(1) {
+  -webkit-transform: translate(-100%, 0px);
+          transform: translate(-100%, 0px);
+  -webkit-transition: all 0.9s ease 0.4s;
+  transition: all 0.9s ease 0.4s;
+}
+
+.house__item:nth-child(2) {
+  -webkit-transform: translate(0px, 100%);
+          transform: translate(0px, 100%);
+  -webkit-transition: all 0.9s ease 0s;
+  transition: all 0.9s ease 0s;
+}
+
+.house__item:nth-child(3) {
+  -webkit-transform: translate(100%, 0px);
+          transform: translate(100%, 0px);
+  -webkit-transition: all 0.9s ease 0.4s;
+  transition: all 0.9s ease 0.4s;
+}
+
+.house__item:nth-child(4) {
+  -webkit-transform: translate(-100%, 0px);
+          transform: translate(-100%, 0px);
+  -webkit-transition: all 0.9s ease 1s;
+  transition: all 0.9s ease 1s;
+}
+
+.house__item:nth-child(5) {
+  -webkit-transform: translate(0px, 100%);
+          transform: translate(0px, 100%);
+  -webkit-transition: all 0.9s ease 0s;
+  transition: all 0.9s ease 0s;
+}
+
+.house__item:nth-child(6) {
+  -webkit-transform: translate(100%, 0px);
+          transform: translate(100%, 0px);
+  -webkit-transition: all 0.9s ease 1s;
+  transition: all 0.9s ease 1s;
+}
+
 .house__item {
   position: relative;
   padding-right: 0 !important;
@@ -504,6 +551,7 @@ header {
   height: 325px;
   overflow: hidden;
   border: 7px solid rgba(28, 28, 28, 0);
+  opacity: 0;
 }
 
 @media screen and (max-width: 1320px) {
@@ -572,8 +620,14 @@ header {
 
 .house__item--block img:hover {
   padding-right: 0;
-  -webkit-transition: .7ms;
-  transition: .7ms;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+._active {
+  opacity: 1 !important;
+  -webkit-transform: translate(0px, 0px) !important;
+          transform: translate(0px, 0px) !important;
 }
 
 @media screen and (max-width: 576px) {
@@ -612,6 +666,11 @@ header {
   line-height: 44px;
   color: #FFFFFF;
   margin-top: 119px;
+  opacity: 0;
+  -webkit-transform: translate(0px, 120%);
+          transform: translate(0px, 120%);
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 
 @media screen and (max-width: 776px) {

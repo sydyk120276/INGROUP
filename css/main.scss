@@ -227,6 +227,9 @@ line-height: 22px;
             font-size: 36px;
             line-height: 44px;
             color: #FFFFFF;
+            opacity: 0;
+            transform: translate(0px, 100%);
+           transition: all 0.9s ease 0s;
             @media screen and (max-width: 776px) {
               font-size: 30px;
             }
@@ -366,6 +369,30 @@ line-height: 22px;
         padding-top: 50px;
     }
 
+    &__item:nth-child(1) {
+        transform: translate(-100%, 0px);
+        transition: all 0.9s ease 0.4s;
+    }
+    &__item:nth-child(2) {
+        transform: translate(0px, 100%);
+        transition: all 0.9s ease 0s;
+    }
+    &__item:nth-child(3) {
+        transform: translate(100%, 0px);
+        transition: all 0.9s ease 0.4s;
+    }
+    &__item:nth-child(4) {
+        transform: translate(-100%, 0px);
+        transition: all 0.9s ease 1s;
+    }
+    &__item:nth-child(5) {
+        transform: translate(0px, 100%);
+        transition: all 0.9s ease 0s;
+    }
+    &__item:nth-child(6) {
+        transform: translate(100%, 0px);
+        transition: all 0.9s ease 1s;
+    }
 
   &__item {
     position: relative;
@@ -374,6 +401,8 @@ line-height: 22px;
     height: 325px;
     overflow: hidden;
     border: 7px solid  rgba(28,28,28,0);
+    opacity: 0;
+
     @media screen and (max-width: 1320px) {
       width: 380px;
       height: 100%;
@@ -416,13 +445,16 @@ line-height: 22px;
       }
       img:hover {
         padding-right: 0;
-        transition: .7ms;
+        transition: all 0.3s ease;
       }
     }
   }
 }
 
-
+ ._active {
+      opacity: 1 !important;
+      transform: translate(0px, 0px) !important;
+    }
 .project-title {
   @media screen and (max-width: 576px) {
     justify-content: center;
@@ -449,6 +481,7 @@ line-height: 22px;
     }
 
   }
+
   .span1 {
     font-style: normal;
     font-weight: 700;
@@ -456,6 +489,11 @@ line-height: 22px;
     line-height: 44px;
     color: #FFFFFF;
     margin-top: 119px;
+    opacity: 0;
+    transform: translate(0px, 120%);
+    transition: all 0.8s ease 0s;
+
+
     @media screen and (max-width: 776px) {
       font-size: 28px;
     }
