@@ -526,8 +526,8 @@ header {
 .house__item:nth-child(4) {
   -webkit-transform: translate(-100%, 0px);
           transform: translate(-100%, 0px);
-  -webkit-transition: all 0.9s ease 1s;
-  transition: all 0.9s ease 1s;
+  -webkit-transition: all 0.9s ease 0.6s;
+  transition: all 0.9s ease 0.6s;
 }
 
 .house__item:nth-child(5) {
@@ -540,8 +540,8 @@ header {
 .house__item:nth-child(6) {
   -webkit-transform: translate(100%, 0px);
           transform: translate(100%, 0px);
-  -webkit-transition: all 0.9s ease 1s;
-  transition: all 0.9s ease 1s;
+  -webkit-transition: all 0.9s ease 0.6s;
+  transition: all 0.9s ease 0.6s;
 }
 
 .house__item {
@@ -604,6 +604,14 @@ header {
   position: absolute;
   bottom: 20px;
   padding: 0 30px;
+  text-decoration: none;
+}
+
+.house__item--block:hover {
+  text-decoration: none;
+  padding-right: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .house__item--block span {
@@ -616,12 +624,6 @@ header {
 
 .house__item--block img {
   padding-right: 15px;
-}
-
-.house__item--block img:hover {
-  padding-right: 0;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 ._active {
@@ -948,6 +950,7 @@ header {
   .items div {
     width: 70% !important;
     height: 100vh;
+    overflow: hidden;
   }
 }
 
